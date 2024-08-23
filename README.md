@@ -1,1 +1,15 @@
 # CS-340-Project
+
+How do you write programs that are maintainable, readable, and adaptable? Especially consider your work on the CRUD Python module from Project One, which you used to connect the dashboard widgets to the database in Project Two. What were the advantages of working in this way? How else could you use this CRUD Python module in the future?
+
+In order to keep something maintainable, it requires readability. Having code be able to be read from many different perspectives is important. This allows for easier adaptability of other components being developed by other team members. When building the components of the CRUD module, I would consider that it was wrapping each core function of the original pyMongo module. Then, through requirements set out by the client, additional functionality and returns were added and updated as the project progressed. I could further develop the module to include different return types that were brought up along the way, and have it more strongly typed.
+
+
+How do you approach a problem as a computer scientist? Consider how you approached the database or dashboard requirements that Grazioso Salvare requested. How did your approach to this project differ from previous assignments in other courses? What techniques or strategies would you use in the future to create databases to meet other client requests?
+
+When approaching every problem, it's best to decompose it to it's core sub-problems. Much like building a system made of components, I would essentially build a list of micro-requirements and then consider how to structure my solution. After a little preplanning, I feel it isn't too difficult. Also, the bigger and more complex the problem, the more decomposition it will require. Much like system design, being able to figure out all requirements for the client is one of the foundational ways of decomposing the problem initially.
+
+
+What do computer scientists do, and why does it matter? How would your work on this type of project help a company, like Grazioso Salvare, to do their work better?
+
+A computer scientist, to me, is all about problem solving using computer and information systems. Some problems could be solved with matters such as data structures and algorithms, while others may involve deciding what hardware is a best fit for solving the problem. The work that was done on this project is a prime example of helping a business with their BI, or business intelligence. Being able to bring up analytical data at any time helps greatly to make meaningful and immediate decisions when information is a requirement. For this project, in other words, is a big quality of life improvement for their workforce when wanting to get data on their animals. Otherwise, they would need to hire someone who can maintain the database, return the data on call, and always be available. That sort of workplace lifestyle is not commonly sought after. So, the project provides and more streamlined and efficient means of retrieving the data.
